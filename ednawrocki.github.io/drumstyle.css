@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+
+#display {
+  margin: auto;
+}
+
+#drum-machine {
+  display: flex;
+  justify-content: center;
+  margin: 30%;
+}
+#drum-machine #pad-bank {
+  width: 182px;
+  height: 152px;
+  display: inline-block;
+  margin: auto;
+}
+#drum-machine #pad-bank .drum-pad {
+  position: relative;
+  float: left;
+  width: 50px;
+  height: 80px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 10px;
+  padding: 32px 16px;
+  transition-duration: 0.1s;
+  margin: 2px;
+  background-color: yellow;
+  box-shadow: 5px 10px;
+}
+
+button:hover {
+  background-color: orange;
+  border: 3px yellow;
+  padding: 34px 18px;
+  box-shadow: 0px 0px;
+}
